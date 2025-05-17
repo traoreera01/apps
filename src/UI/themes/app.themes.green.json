@@ -1,0 +1,455 @@
+{
+    "description": {
+        "name": "EduGreenTheme",
+        "version": "1.0.0",
+        "description": "Green-themed design for educational applications, designed for schools and universities.",
+        "author": "QML Team",
+        "mail": "traoreera@gmail.com"
+    },
+    "light": {
+        "description": {
+            "author": "QML Team",
+            "url": "https://github.com/qml/qml-theme-schemas",
+            "license": "MIT",
+            "theme": ["light"],
+            "description": "Light green theme optimized for educational use, with soft pastel colors and high contrast."
+        },
+        "login": {
+            "bgColor": "#f0f4f8",
+            "textColor": "#2c3e50",
+            "winColor": "transparent",
+            "borderColor": "#bdc3c7",
+            "logDefault": "#4caf50",
+            "logHovered": "#388e3c",
+            "checkedDefault": "#2ecc71",
+            "isChecked": "#27ae60",
+            "textfield": {
+                "colorDefault": "#ffffff",
+                "colorOnFocus": "#ecf0f1",
+                "colorMouseOver": "#dfe6e9",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#2c3e50",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#95a5a6"
+            }
+        },
+        "Application": {
+            "winColor": "#ffffff",
+            "allCntBg": "#f9f9f9",
+            "animColor": "#4caf50",
+            "bgColor": "#ffffff",
+            "animations": {
+                "easing": [0.445, 0.05, 0.55, 0.95, 1, 1],
+                "duration": 200
+            },
+            "menu": {
+                "color": "#ffffff",
+                "borderColor": "#bdc3c7",
+                "radius": 10,
+                "textColor": "#2c3e50"
+            },
+            "BtnAimate": {
+                "animateColor": "#4caf50",
+                "defaultColor": "transparent",
+                "animateTextColor": "#ffffff",
+                "defaultColorText": "#2c3e50",
+                "raduis": 5
+            },
+            "TopBarBtn": {
+                "color": "#4caf50"
+            },
+            "swithbtn": {
+                "checkColor": "#4caf50",
+                "roundColor": "#bdc3c7",
+                "unchekColor": "#e74c3c"
+            },
+            "logoColor": "#8bc34a",
+            "recent_open": {
+                "separtorColor": "#bdc3c7",
+                "text_color": "#95a5a6"
+            },
+            "popContent": {
+                "color": "#ffffff",
+                "shadowEffect": {
+                    "color": "#bdc3c7",
+                    "verticalOffset": 2,
+                    "samples": 10,
+                    "horizontalOffset": 2,
+                    "opacity": 0.3,
+                    "radius": 10
+                }
+            }
+        },
+        "Home": {
+            "bgColor": "#f0f4f8",
+            "body": {
+                "color": "#ffffff",
+                "cartContentColor": "#ffffff",
+                "cartContentRad": 16,
+                "calandar": {
+                    "color": "#ffffff",
+                    "radius": 16
+                },
+                "actuality": {
+                    "color": "#ffffff",
+                    "swipBg": "#ffffff",
+                    "pageColor": "#ffffff"
+                },
+                "card": {
+                    "color": "#4caf50",
+                    "radius": 16,
+                    "textColor": "#ffffff",
+                    "read": {
+                        "color": "#8bc34a",
+                        "textColor": "#ffffff",
+                        "radius": 9
+                    }
+                }
+            },
+            "swip": {
+                "indicator": {
+                    "activate": "#4caf50",
+                    "deactivate": "#bdc3c7",
+                    "radius": 10
+                },
+                "animation": {
+                    "duration": 1000,
+                    "easing": [0.109, 0.741, 0.781, 0.498, 1, 1]
+                }
+            }
+        },
+        "Settings": {
+            "headerColor": "#4caf50",
+            "pheaderText": "#ffffff",
+            "textColor": "#2c3e50",
+            "rectangle": {
+                "color": "#ffffff",
+                "menuColor": "#fbfdff",
+                "menuHandColor": "#bdc3c7"
+            },
+            "notification": {
+                "textColor": "#2c3e50",
+                "contentColor": "transparent",
+                "color": "transparent",
+                "rect1": "#ffffff"
+            },
+            "profil": {
+                "profilColor": "#4caf50",
+                "textColor": "#2c3e50"
+            },
+            "userId": {
+                "color": "#8bc34a",
+                "textColor": "#ffffff"
+            }
+        },
+        "bibilotheque": {
+            "animations": {
+                "easing": [0.445, 0.05, 0.55, 0.95, 1, 1],
+                "duration": 1
+            },
+            "color": "#f0f4f8",
+            "topBarColor": "transparent",
+            "textColor": "#2c3e50",
+            "bookContentColor": "#ffffff"
+        },
+        "controls": {
+            "headerApp": {
+                "color": "#4caf50",
+                "separator_color": "#bdc3c7",
+                "textColor": "#ffffff",
+                "notifContentColor": "#8bc34a",
+                "searchBar": {
+                    "color": "#ffffff",
+                    "colorDefault": "#ffffff",
+                    "colorOnFocus": "#ecf0f1",
+                    "colorMouseOver": "#dfe6e9",
+                    "borderOnFocus": "#4caf50",
+                    "selectionTextColor": "#2c3e50",
+                    "separatorColor": "#bdc3c7",
+                    "contentImg": "#8bc34a",
+                    "textColor": "#2c3e50"
+                },
+                "profilRound": {
+                    "indicator_on": "#4caf50",
+                    "indicator_off": "#e74c3c"
+                }
+            },
+            "dropEffect": {
+                "colorEffect": "#26000000",
+                "radius": 7,
+                "samples": 16,
+                "spread": 0
+            },
+            "table": {
+                "headerColor": "#f8f8f8",
+                "textColor": "#5a5a5a",
+                "headerCeparatorColor": "#e0e0e0",
+                "bodyContentColor1": "#ffffff",
+                "bodyContentColor2": "#f8f8f8",
+                "bodyTextColor": "#4a4a4a",
+                "scrollIndicatorColor": "#a0a0a0",
+                "scrollBackColor": "#e0e0e0"
+            },
+            "custom": {
+                "clikColor": "#4caf50",
+                "defaultColor": "transparent",
+                "textColor": "#2c3e50",
+                "textCliked": "#ffffff",
+                "widthIndicator": 0,
+                "raduisIn": 5,
+                "hoverColor": "#4caf50",
+                "indicatorColor": "transparent",
+                "borderColor": "transparent",
+                "borderWidh": 0,
+                "otherParams": {
+                    "textColor": "#ffffff",
+                    "defaultColor": "#4caf50"
+                }
+            },
+            "customswith": {
+                "checkColor": "#4caf50",
+                "roundColor": "#bdc3c7",
+                "unchekColor": "#e74c3c"
+            },
+            "textfield": {
+                "colorDefault": "#ffffff",
+                "colorOnFocus": "#ecf0f1",
+                "colorMouseOver": "#dfe6e9",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#2c3e50",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#95a5a6"
+            }
+        },
+        "resetColor": {
+            "menuBtnBg": {
+                "defaultColor": "transparent",
+                "animateColor": "#a37845",
+                "textColorDefault": "#b3b3b3"
+            }
+        }
+    },
+    "dark": {
+        "description": {
+            "author": "QML Team",
+            "url": "https://github.com/qml/qml-theme-schemas",
+            "license": "MIT",
+            "theme": ["dark"],
+            "description": "Dark green theme optimized for educational use, with a modern and professional look."
+        },
+        "login": {
+            "bgColor": "#121212",
+            "textColor": "#e0e0e0",
+            "winColor": "transparent",
+            "borderColor": "#333333",
+            "logDefault": "#4caf50",
+            "logHovered": "#388e3c",
+            "checkedDefault": "#2ecc71",
+            "isChecked": "#27ae60",
+            "textfield": {
+                "colorDefault": "#1e1e1e",
+                "colorOnFocus": "#2b2b2b",
+                "colorMouseOver": "#353535",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#e0e0e0",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#808080"
+            }
+        },
+        "Application": {
+            "winColor": "#1c1c1c",
+            "allCntBg": "#121212",
+            "animColor": "#4caf50",
+            "bgColor": "#1a1a1a",
+            "animations": {
+                "easing": [0.4, 0.0, 0.2, 1],
+                "duration": 300
+            },
+            "menu": {
+                "color": "#282828",
+                "borderColor": "#333333",
+                "radius": 8,
+                "textColor": "#e0e0e0"
+            },
+            "BtnAimate": {
+                "animateColor": "#8bc34a",
+                "defaultColor": "#4caf50",
+                "animateTextColor": "#ffffff",
+                "defaultColorText": "#e0e0e0",
+                "raduis": 6
+            },
+            "TopBarBtn": {
+                "color": "#4caf50"
+            },
+            "swithbtn": {
+                "checkColor": "#4caf50",
+                "roundColor": "#444444",
+                "unchekColor": "#e74c3c"
+            },
+            "logoColor": "#8bc34a",
+            "recent_open": {
+                "separtorColor": "#555555",
+                "text_color": "#b3b3b3"
+            },
+            "popContent": {
+                "color": "#121212",
+                "shadowEffect": {
+                    "color": "#000000",
+                    "verticalOffset": 2,
+                    "samples": 12,
+                    "horizontalOffset": 2,
+                    "opacity": 0.3,
+                    "radius": 8
+                }
+            }
+        },
+        "Home": {
+            "bgColor": "#1a1a1a",
+            "body": {
+                "color": "#282828",
+                "cartContentColor": "#1f1f1f",
+                "cartContentRad": 12,
+                "calandar": {
+                    "color": "#1e1e1e",
+                    "radius": 12
+                },
+                "actuality": {
+                    "color": "#1f1f1f",
+                    "swipBg": "#282828",
+                    "pageColor": "#282828"
+                },
+                "card": {
+                    "color": "#4caf50",
+                    "radius": 10,
+                    "textColor": "#ffffff",
+                    "read": {
+                        "color": "#8bc34a",
+                        "textColor": "#ffffff",
+                        "radius": 6
+                    }
+                }
+            },
+            "swip": {
+                "indicator": {
+                    "activate": "#4caf50",
+                    "deactivate": "#4e4e4e",
+                    "radius": 8
+                },
+                "animation": {
+                    "duration": 1000,
+                    "easing": [0.215, 0.61, 0.355, 1]
+                }
+            }
+        },
+        "Settings": {
+            "headerColor": "#4caf50",
+            "pheaderText": "#ffffff",
+            "textColor": "#b3b3b3",
+            "rectangle": {
+                "color": "#1f1f1f",
+                "menuColor": "#282828",
+                "menuHandColor": "#666666"
+            },
+            "notification": {
+                "textColor": "#ffffff",
+                "contentColor": "#121212",
+                "color": "#1f1f1f",
+                "rect1": "#181818"
+            },
+            "profil": {
+                "profilColor": "#4caf50",
+                "textColor": "#ffffff"
+            },
+            "userId": {
+                "color": "#282828",
+                "textColor": "#ffffff"
+            }
+        },
+        "bibilotheque": {
+            "animations": {
+                "easing": [0.4, 0.0, 0.2, 1],
+                "duration": 150
+            },
+            "color": "#1a1a1a",
+            "topBarColor": "#1c1c1c",
+            "textColor": "#b3b3b3",
+            "bookContentColor": "#282828"
+        },
+        "controls": {
+            "headerApp": {
+                "color": "#4caf50",
+                "separator_color": "#333333",
+                "textColor": "#ffffff",
+                "notifContentColor": "#8bc34a",
+                "searchBar": {
+                    "color": "#1f1f1f",
+                    "colorDefault": "#1e1e1e",
+                    "colorOnFocus": "#2b2b2b",
+                    "colorMouseOver": "#353535",
+                    "borderOnFocus": "#4caf50",
+                    "selectionTextColor": "#b3b3b3",
+                    "separatorColor": "#444444",
+                    "contentImg": "#8bc34a",
+                    "textColor": "#ffffff"
+                },
+                "profilRound": {
+                    "indicator_on": "#4caf50",
+                    "indicator_off": "#e74c3c"
+                }
+            },
+            "dropEffect": {
+                "colorEffect": "#0d0d0d",
+                "radius": 8,
+                "samples": 14,
+                "spread": 0
+            },
+            "table": {
+                "headerColor": "#333333",
+                "textColor": "#b3b3b3",
+                "headerCeparatorColor": "#444444",
+                "bodyContentColor1": "#282828",
+                "bodyContentColor2": "#1f1f1f",
+                "bodyTextColor": "#e0e0e0",
+                "scrollIndicatorColor": "#666666",
+                "scrollBackColor": "#333333"
+            },
+            "custom": {
+                "clikColor": "#4caf50",
+                "defaultColor": "#282828",
+                "textColor": "#b3b3b3",
+                "textCliked": "#ffffff",
+                "widthIndicator": 1,
+                "raduisIn": 6,
+                "hoverColor": "#4caf50",
+                "indicatorColor": "#333333",
+                "borderColor": "#444444",
+                "borderWidh": 1,
+                "otherParams": {
+                    "textColor": "#ffffff",
+                    "defaultColor": "#4caf50"
+                }
+            },
+            "customswith": {
+                "checkColor": "#4caf50",
+                "roundColor": "#444444",
+                "unchekColor": "#666666"
+            },
+            "textfield": {
+                "colorDefault": "#1e1e1e",
+                "colorOnFocus": "#2b2b2b",
+                "colorMouseOver": "#353535",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#ffffff",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#808080"
+            }
+        },
+        "resetColor": {
+            "menuBtnBg": {
+                "defaultColor": "transparent",
+                "animateColor": "#a37845",
+                "textColorDefault": "#b3b3b3"
+            }
+        }
+    }
+}

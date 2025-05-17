@@ -1,0 +1,14 @@
+Fonts in this folder are loaded automatically.
+arial.ttf
+arialbd.ttf
+ariali.ttf
+arialbi.ttf
+times.ttf
+timesbd.ttf
+timesi.ttf
+timesbi.ttf
+verdana.ttf
+verdanab.ttf
+verdanai.ttf
+verdanaz.ttf
+webdings.ttf

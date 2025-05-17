@@ -1,0 +1,4 @@
+.vscode
+*.states.json
+data
+__pycache__

@@ -1,0 +1,509 @@
+{
+    "description": {
+        "name": "Default",
+        "version": "1.0.0",
+        "description": "Default theme to use for user interface",
+        "author": "QML Team",
+        "mail": "traoreera@gmail.com"
+    },
+    "light": {
+        "description": {
+            "author": "QML Team",
+            "url": "https://github.com/qml/qml-theme-schemas",
+            "license": "MIT",
+            "theme": [
+                "light",
+                "dark"
+            ],
+            "description": "Default theme to use for user interface"
+        },
+        "login": {
+            "bgColor": "#001741",
+            "textColor": "#fff",
+            "winColor": "transparent",
+            "borderColor": "transparent",
+            "logDefault": "#950a0a",
+            "logHovered": "#740404",
+            "checkedDefault": "#030303",
+            "isChecked": "#BACF97",
+            "textfield": {
+                "colorDefault": "#282c34",
+                "colorOnFocus": "#242831",
+                "colorMouseOver": "#2B2F38",
+                "borderOnFocus": "#ff007f",
+                "selectedTextColor": "#FFFFFF",
+                "selectionColor": "#ff007f",
+                "placeholderTextColor": "#81848c"
+            }
+        },
+        "Application": {
+            "winColor": "transparent",
+            "allCntBg": "#fff",
+            "animColor": "#212429",
+            "bgColor": "#faf5ef",
+            "amimationColor": {
+                "easing": [
+                    0.445,
+                    0.05,
+                    0.55,
+                    0.95,
+                    1,
+                    1
+                ],
+                "duration": 1
+            },
+            "animations": {
+                "easing": [
+                    0.445,
+                    0.05,
+                    0.55,
+                    0.95,
+                    1,
+                    1
+                ],
+                "duration": 200
+            },
+            "menu": {
+                "color": "#fff",
+                "borderColor": "#fff",
+                "radius": 10,
+                "textColor": "#fff"
+            },
+            "BtnAimate": {
+                "animateColor": "#005eff",
+                "defaultColor": "transparent",
+                "animateTextColor": "#fff",
+                "defaultColorText": "#000",
+                "raduis": 5
+            },
+            "TopBarBtn": {
+                "color": "#005eff"
+            },
+            "swithbtn": {
+                "checkColor": "#0ACF97",
+                "roundColor": "#2f3844",
+                "unchekColor": "#4e9788"
+            },
+            "logoColor": "#ff9000",
+            "recent_open": {
+                "separtorColor": "#d3d3d3",
+                "text_color": "gray"
+            },
+            "popContent": {
+                "color": "transparent",
+                "shadowEffect": {
+                    "color": "red",
+                    "verticalOffset": 0,
+                    "samples": 10,
+                    "horizontalOffset": 0,
+                    "opacity": 1,
+                    "radius": 10
+                }
+            }
+        },
+        "Home": {
+            "bgColor": "#f9f7f9fb",
+            "body": {
+                "color": "#f9f7f9fb",
+                "cartContentColor": "#FFFFFF",
+                "cartContentRad": 16,
+                "calandar": {
+                    "color": "#fff",
+                    "radius": 16
+                },
+                "actuality": {
+                    "color": "#fff",
+                    "swipBg": "#fff",
+                    "pageColor": "#fff"
+                },
+                "card": {
+                    "color": "#005eff",
+                    "radius": 16,
+                    "textColor": "#fff",
+                    "read": {
+                        "color": "#ff9000",
+                        "textColor": "#fff",
+                        "radius": 9
+                    }
+                }
+            },
+            "swip": {
+                "indicator": {
+                    "activate": "#005eff",
+                    "deactivate": "#fff",
+                    "radius": 10
+                },
+                "animation": {
+                    "duration": 1000,
+                    "easing": [
+                        0.109,
+                        0.741,
+                        0.781,
+                        0.498,
+                        1,
+                        1
+                    ]
+                }
+            }
+        },
+        "Settings": {
+            "headerColor": "#005eff",
+            "pheaderText": "#fff",
+            "textColor": "#000",
+            "rectangle": {
+                "color": "#fff",
+                "menuColor": "#fbfdff",
+                "menuHandColor": "lightgray"
+            },
+            "notification": {
+                "textColor": "#000",
+                "contentColor": "transparent",
+                "color": "transparent",
+                "rect1": "#FFFFFF"
+            },
+            "profil": {
+                "profilColor": "#005eff",
+                "textColor": "#000"
+            },
+            "userId": {
+                "color": "#121212",
+                "textColor": "#fff"
+            }
+        },
+        "bibilotheque": {
+            "animations": {
+                "easing": [
+                    0.445,
+                    0.05,
+                    0.55,
+                    0.95,
+                    1,
+                    1
+                ],
+                "duration": 1
+            },
+            "color": "#f9f7f9fb",
+            "topBarColor": "transparent",
+            "textColor": "#000",
+            "bookContentColor": "#FFFFFF"
+        },
+        "controls": {
+            "headerApp": {
+                "color": "#005eff",
+                "separator_color": "lightgray",
+                "textColor": "#fff",
+                "notifContentColor": "#ff9000",
+                "searchBar": {
+                    "color": "#fff",
+                    "colorDefault": "#fff",
+                    "colorOnFocus": "#242831",
+                    "colorMouseOver": "#2B2F38",
+                    "borderOnFocus": "#ff007f",
+                    "selectionTextColor": "#2f2f2f",
+                    "separatorColor": "lightgray",
+                    "contentImg": "#ff9000",
+                    "textColor": "#000"
+                },
+                "profilRound": {
+                    "indicator_on": "#5aee2c",
+                    "indicator_off": "#c93131"
+                }
+            },
+            "dropEffect": {
+                "colorEffect": "#26000000",
+                "radius": 7,
+                "samples": 16,
+                "spread": 0
+            },
+            "table": {
+                "headerColor": "#f8f8f8",
+                "textColor": "#5a5a5a",
+                "headerCeparatorColor": "#e0e0e0",
+                "bodyContentColor1": "#fff",
+                "bodyContentColor2": "#fff",
+                "bodyTextColor": "#4a4a4a",
+                "scrollIndicatorColor": "#a0a0a0",
+                "scrollBackColor": "#e0e0e0"
+            },
+            "custom": {
+                "clikColor": "#005eff",
+                "defaultColor": "transparent",
+                "textColor": "#000",
+                "textCliked": "#fff",
+                "widthIndicator": 0,
+                "raduisIn": 5,
+                "hoverColor": "#005eff",
+                "indicatorColor": "transparent",
+                "borderColor": "transparent",
+                "borderWidh": 0,
+                "otherParams": {
+                    "textColor": "#fff",
+                    "defaultColor": "#005eff"
+                }
+            },
+            "customswith": {
+                "checkColor": "#0ACF97",
+                "roundColor": "#2f3844",
+                "unchekColor": "#4e9788"
+            },
+            "textfield": {
+                "colorDefault": "#282c34",
+                "colorOnFocus": "#242831",
+                "colorMouseOver": "#2B2F38",
+                "borderOnFocus": "#ff007f",
+                "selectedTextColor": "#FFFFFF",
+                "selectionColor": "#ff007f",
+                "placeholderTextColor": "#81848c"
+            }
+        },
+        "resetColor": {
+            "menuBtnBg": {
+                "defaultColor": "transparent",
+                "animateColor": "#a37845",
+                "textColorDefault": "#000",
+                "textAnimateColor": "#fff"
+            }
+        }
+    },
+    "dark": {
+        "description": {
+            "author": "QML Team",
+            "url": "https://github.com/qml/qml-theme-schemas",
+            "license": "MIT",
+            "theme": [
+                "dark"
+            ],
+            "description": "Dark theme to use for user interface"
+        },
+        "login": {
+            "bgColor": "#121212",
+            "textColor": "#ffffff",
+            "winColor": "transparent",
+            "borderColor": "#333333",
+            "logDefault": "#444444",
+            "logHovered": "#555555",
+            "checkedDefault": "#0066ff",
+            "isChecked": "#0ACF97",
+            "textfield": {
+                "colorDefault": "#1e1e1e",
+                "colorOnFocus": "#2b2b2b",
+                "colorMouseOver": "#353535",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#ffffff",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#b3b3b3"
+            }
+        },
+        "Application": {
+            "winColor": "#1c1c1c",
+            "allCntBg": "#121212",
+            "animColor": "#333333",
+            "bgColor": "#181818",
+            "animations": {
+                "easing": [
+                    0.4,
+                    0.0,
+                    0.2,
+                    1
+                ],
+                "duration": 200
+            },
+            "menu": {
+                "color": "#282828",
+                "borderColor": "#333333",
+                "radius": 8,
+                "textColor": "#ffffff"
+            },
+            "BtnAimate": {
+                "animateColor": "#0066ff",
+                "defaultColor": "#333333",
+                "animateTextColor": "#ffffff",
+                "defaultColorText": "#b3b3b3",
+                "raduis": 6
+            },
+            "TopBarBtn": {
+                "color": "#0066ff"
+            },
+            "swithbtn": {
+                "checkColor": "#0ACF97",
+                "roundColor": "#444444",
+                "unchekColor": "#666666"
+            },
+            "logoColor": "#4caf50",
+            "recent_open": {
+                "separtorColor": "#555555",
+                "text_color": "#b3b3b3"
+            },
+            "popContent": {
+                "color": "#121212",
+                "shadowEffect": {
+                    "color": "#000000",
+                    "verticalOffset": 2,
+                    "samples": 12,
+                    "horizontalOffset": 2,
+                    "opacity": 0.5,
+                    "radius": 8
+                }
+            }
+        },
+        "Home": {
+            "bgColor": "#181818",
+            "body": {
+                "color": "#282828",
+                "cartContentColor": "#1f1f1f",
+                "cartContentRad": 12,
+                "calandar": {
+                    "color": "#1e1e1e",
+                    "radius": 12
+                },
+                "actuality": {
+                    "color": "#1f1f1f",
+                    "swipBg": "#282828",
+                    "pageColor": "#282828"
+                },
+                "card": {
+                    "color": "#0066ff",
+                    "radius": 10,
+                    "textColor": "#ffffff",
+                    "read": {
+                        "color": "#4caf50",
+                        "textColor": "#ffffff",
+                        "radius": 6
+                    }
+                }
+            },
+            "swip": {
+                "indicator": {
+                    "activate": "#0066ff",
+                    "deactivate": "#4e4e4e",
+                    "radius": 8
+                },
+                "animation": {
+                    "duration": 1000,
+                    "easing": [
+                        0.215,
+                        0.61,
+                        0.355,
+                        1
+                    ]
+                }
+            }
+        },
+        "Settings": {
+            "headerColor": "#0066ff",
+            "pheaderText": "#ffffff",
+            "textColor": "#b3b3b3",
+            "rectangle": {
+                "color": "#1f1f1f",
+                "menuColor": "#282828",
+                "menuHandColor": "#666666"
+            },
+            "notification": {
+                "textColor": "#ffffff",
+                "contentColor": "#121212",
+                "color": "#1f1f1f",
+                "rect1": "#181818"
+            },
+            "profil": {
+                "profilColor": "#0066ff",
+                "textColor": "#ffffff"
+            },
+            "userId": {
+                "color": "#282828",
+                "textColor": "#ffffff"
+            }
+        },
+        "bibilotheque": {
+            "animations": {
+                "easing": [
+                    0.4,
+                    0.0,
+                    0.2,
+                    1
+                ],
+                "duration": 150
+            },
+            "color": "#181818",
+            "topBarColor": "#1c1c1c",
+            "textColor": "#b3b3b3",
+            "bookContentColor": "#282828"
+        },
+        "controls": {
+            "headerApp": {
+                "color": "#0066ff",
+                "separator_color": "#333333",
+                "textColor": "#ffffff",
+                "notifContentColor": "#4caf50",
+                "searchBar": {
+                    "color": "#1f1f1f",
+                    "colorDefault": "#1e1e1e",
+                    "colorOnFocus": "#2b2b2b",
+                    "colorMouseOver": "#353535",
+                    "borderOnFocus": "#4caf50",
+                    "selectionTextColor": "#b3b3b3",
+                    "separatorColor": "#444444",
+                    "contentImg": "#4caf50",
+                    "textColor": "#ffffff"
+                },
+                "profilRound": {
+                    "indicator_on": "#0ACF97",
+                    "indicator_off": "#c93131"
+                }
+            },
+            "dropEffect": {
+                "colorEffect": "#0d0d0d",
+                "radius": 8,
+                "samples": 14,
+                "spread": 0
+            },
+            "table": {
+                "headerColor": "#333333",
+                "textColor": "#b3b3b3",
+                "headerCeparatorColor": "#444444",
+                "bodyContentColor1": "#282828",
+                "bodyContentColor2": "#1f1f1f",
+                "bodyTextColor": "#e0e0e0",
+                "scrollIndicatorColor": "#666666",
+                "scrollBackColor": "#333333"
+            },
+            "custom": {
+                "clikColor": "#0066ff",
+                "defaultColor": "#282828",
+                "textColor": "#b3b3b3",
+                "textCliked": "#ffffff",
+                "widthIndicator": 1,
+                "raduisIn": 6,
+                "hoverColor": "#4caf50",
+                "indicatorColor": "#333333",
+                "borderColor": "#444444",
+                "borderWidh": 1,
+                "otherParams": {
+                    "textColor": "#ffffff",
+                    "defaultColor": "#0066ff"
+                }
+            },
+            "customswith": {
+                "checkColor": "#0ACF97",
+                "roundColor": "#444444",
+                "unchekColor": "#666666"
+            },
+            "textfield": {
+                "colorDefault": "#1e1e1e",
+                "colorOnFocus": "#2b2b2b",
+                "colorMouseOver": "#353535",
+                "borderOnFocus": "#4caf50",
+                "selectedTextColor": "#ffffff",
+                "selectionColor": "#4caf50",
+                "placeholderTextColor": "#b3b3b3"
+            }
+        },
+        "resetColor": {
+            "menuBtnBg": {
+                "defaultColor": "transparent",
+                "animateColor": "#a37845",
+                "textColorDefault": "#000",
+                "textAnimateColor": "#fff"
+            }
+        }
+    }
+}

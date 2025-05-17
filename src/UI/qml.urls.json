@@ -1,0 +1,141 @@
+{
+    "qml": {
+        "App.qml": "./qml/./App.qml",
+        "Login.qml": "./qml/./Login.qml",
+        "NewCount.qml": "./qml/./NewCount.qml",
+        "qml.urls.json": "./qml/./qml.urls.json"
+    },
+    "controls": {
+        "BtnAnimate.qml": "./qml/controls/BtnAnimate.qml",
+        "ComboCustom.qml": "./qml/controls/ComboCustom.qml",
+        "Custom.qml": "./qml/controls/Custom.qml",
+        "CustomBtn.qml": "./qml/controls/CustomBtn.qml",
+        "CustomSwith.qml": "./qml/controls/CustomSwith.qml",
+        "CustomTextField.qml": "./qml/controls/CustomTextField.qml",
+        "HeaderApp.qml": "./qml/controls/HeaderApp.qml",
+        "Notifications.qml": "./qml/controls/Notifications.qml",
+        "PasswordCustom.qml": "./qml/controls/PasswordCustom.qml",
+        "PdfReader.qml": "./qml/controls/PdfReader.qml",
+        "PopContent.qml": "./qml/controls/PopContent.qml",
+        "ProfileRound.qml": "./qml/controls/ProfileRound.qml",
+        "SearchBar.qml": "./qml/controls/SearchBar.qml",
+        "Table.qml": "./qml/controls/Table.qml",
+        "TopBarButton.qml": "./qml/controls/TopBarButton.qml"
+    },
+    "effect": {
+        "DropShadowEffect.qml": "./qml/effect/DropShadowEffect.qml",
+        "FastBlurEffect.qml": "./qml/effect/FastBlurEffect.qml",
+        "OpacityMaskEffect.qml": "./qml/effect/OpacityMaskEffect.qml",
+        "ShadowEffect.qml": "./qml/effect/ShadowEffect.qml"
+    },
+    "private": {
+        "DropShadowBase.qml": "./qml/effect/private/DropShadowBase.qml",
+        "FastGlow.qml": "./qml/effect/private/FastGlow.qml",
+        "FastInnerShadow.qml": "./qml/effect/private/FastInnerShadow.qml",
+        "GaussianDirectionalBlur.qml": "./qml/effect/private/GaussianDirectionalBlur.qml",
+        "GaussianGlow.qml": "./qml/effect/private/GaussianGlow.qml",
+        "GaussianInnerShadow.qml": "./qml/effect/private/GaussianInnerShadow.qml",
+        "GaussianMaskedBlur.qml": "./qml/effect/private/GaussianMaskedBlur.qml",
+        "SourceProxy.qml": "./qml/effect/private/SourceProxy.qml"
+    },
+    "fonts": {
+        "fonts.txt": "./qml/fonts/fonts.txt"
+    },
+    "Montserrat": {
+        "OFL.txt": "./qml/fonts/Montserrat/OFL.txt",
+        "README.txt": "./qml/fonts/Montserrat/README.txt"
+    },
+    "pages": {
+        "bookDescription.qml": "./qml/pages/bookDescription.qml",
+        "Books.qml": "./qml/pages/Books.qml",
+        "Files.qml": "./qml/pages/Files.qml",
+        "Home.qml": "./qml/pages/Home.qml",
+        "HomeFile.qml": "./qml/pages/HomeFile.qml",
+        "Homes_new.qml": "./qml/pages/Homes_new.qml",
+        "License.qml": "./qml/pages/License.qml",
+        "NotifSettings.qml": "./qml/pages/NotifSettings.qml",
+        "PdfReader.qml": "./qml/pages/PdfReader.qml",
+        "Profile.qml": "./qml/pages/Profile.qml",
+        "Settings.qml": "./qml/pages/Settings.qml",
+        "UserId.qml": "./qml/pages/UserId.qml"
+    },
+
+    "icon": {
+        "x": "../src/ico/1x.svg",
+        "y": "../src/ico/1y.svg",
+        "about_me_logo": "../src/ico/about-me-logo.svg",
+        "alert_triangle": "../src/ico/alert-triangle.svg",
+        "align_justify": "../src/ico/align-justify.svg",
+        "arrow-left": "../src/ico/arrow-left.svg",
+        "at_sign": "../src/ico/at-sign.svg",
+        "bell": "../src/ico/bell.svg",
+        "book_open": "./qml/src/ico/book-open.svg",
+        "book": "../src/ico/book.svg",
+        "calandar": "../src/ico/calandar.svg",
+        "calendar": "../src/ico/calendar.svg",
+        "check": "../src/ico/check.svg",
+        "chevronLeft": "../src/ico/chevron-left.svg",
+        "chevronRight": "../src/ico/chevron-right.svg",
+        "community": "../src/ico/communoty.svg",
+        "download": "../src/ico/download-square-svgrepo-com.svg",
+        "eye_off": "../src/ico/eye-off.svg",
+        "eye": "../src/ico/eye.svg",
+        "file": "../src/ico/file.svg",
+        "filewhite": "../src/ico/filewhite.svg",
+        "forum": "../src/ico/forum.svg",
+        "help_circle": "../src/ico/help-circle.svg",
+        "help": "../src/ico/help.svg",
+        "home": "../src/ico/home.svg",
+        "Interface": "../src/ico/Interface.svg",
+        "key": "../src/ico/key.svg",
+        "maximize": "../src/ico/maximize.svg",
+        "minimize": "../src/ico/minimize.svg",
+        "minus": "../src/ico/minus.svg",
+        "moon": "../src/ico/moon.svg",
+        "package": "../src/ico/package.svg",
+        "pdf": "../src/ico/pdf.svg",
+        "pdf_": "../src/ico/pdf_.svg",
+        "plus": "../src/ico/plus.svg",
+        "recent_open": "../src/ico/recent_open.svg",
+        "resize_icon": "../src/ico/resize_icon.svg",
+        "save": "../src/ico/save.svg",
+        "search": "../src/ico/search.svg",
+        "settings": "../src/ico/settings.svg",
+        "sliders": "../src/ico/sliders.svg",
+        "sun": "../src/ico/sun.svg",
+        "trash": "../src/ico/trash.svg",
+        "user": "../src/ico/user.svg",
+        "_icons": "../src/ico/_icons.svg",
+        "animateIco": {
+            "book": "../src/changeColor/book.svg",
+            "file": "../src/changeColor/file.svg",
+            "home": "../src/changeColor/home.svg",
+            "settings": "../src/changeColor/settings.svg",
+            "forum": "../src/ico/forum.svg"
+        }
+    },
+    "images": {
+        "page1": "../src/images/1.jpg",
+        "page2": "../src/images/2.jpg",
+        "page3": "../src/images/3.jpg",
+        "page4": "../src/images/4.jpg",
+        "bgImageD": "../src/images/bgImageD.png",
+        "bgImg": "../src/images/bgImg.png",
+        "eror404": "../src/images/eror404.jpg",
+        "Icon_user": "../src/images/Icon_user.png",
+        "nord_Minimal_Nord": "../src/images/nord-Minimal-Nord.png",
+        "notes": "../src/images/notes.png",
+        "onedark_bash": "../src/images/onedark-bash.png",
+        "onedark_keyboard": "../src/images/onedark-keyboard.jpg",
+        "pdfIco": "../src/images/pdfIco.png",
+        "python": "../src/images/python.png"
+    },
+    "Sound": {
+        "notification.wav": "../src/Sound/notification.wav"
+    },
+    "themes": {
+        "controls.default.json": "./qml/themes/controls.default.json",
+        "test.themes.json": "./qml/themes/test.themes.json",
+        "thms.default.json": "./qml/themes/thms.default.json"
+    }
+}
